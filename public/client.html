@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Safe Walk</title>
+    <script src="externalLibrary/jquery/jquery-2.2.0.js"></script>
+    <script src="externalLibrary/socket.io.js"></script>
+    <script src="Client_User.js"></script>
+    <script src="client.js"></script>
+    <script src="UI.js"></script>
+</head>
+<body>
+    <button id="btnWatchOn">On</button><button id="btnWatchOff">Off</button>&nbsp;<label id="lblOnWatchStatus">(currentStatus)</label>
+    <br />
+    <input id="remainSeconds" placeholder="time left in seconds"/>
+    <button id="btnAddTime">Add 5 seconds</button>
+    <br />
+    <button id="btnUploadContact">Upload Contact</button>
+    <br />
+    <label>GPS</label><input id="txtLat" placeholder="lat"/><input id="txtLon" placeholder="lon"/><button id="btnUploadGPSInfo">Upload</button>
+</body>
+</html>
